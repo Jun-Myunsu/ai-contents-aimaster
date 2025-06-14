@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 개발자 마스터 지식 맵</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 AI 개발자 마스터 지식 맵</h1>
+            <p>인공지능을 활용한 프로그래밍의 모든 것</p>
+        </div>
+
+        <div class="knowledge-map">
+            <div class="knowledge-node beginner" onclick="toggleDetails(this)">
+                <div class="node-header">
+                    <div class="node-icon">🎯</div>
+                    <h3 class="node-title">기초 프로그래밍</h3>
+                    <span class="node-level">초급</span>
+                </div>
+                <div class="node-content">
+                    <ul class="skills-list">
+                        <li>Python 기초 문법 & 자료구조</li>
+                        <li>Git/GitHub 버전 관리</li>
+                        <li>API 활용 및 HTTP 요청</li>
+                        <li>데이터 처리 (Pandas, NumPy)</li>
+                        <li>웹 스크래핑 기초</li>
+                    </ul>
+                </div>
+                <div class="connections">
+                    <strong>연결 분야:</strong>
+                    <span class="connection-tag">데이터 분석</span>
+                    <span class="connection-tag">웹 개발</span>
+                    <span class="connection-tag">자동화</span>
+                </div>
+            </div>
+
+            <div class="knowledge-node beginner" onclick="toggleDetails(this)">
+                <div class="node-header">
+                    <div class="node-icon">🌐</div>
+                    <h3 class="node-title">웹 개발 기초</h3>
+                    <span class="node-level">초급</span>
+                </div>
+                <div class="node-content">
+                    <ul class="skills-list">
+                        <li>HTML5 구조 & 시맨틱 마크업</li>
+                        <li>CSS3 스타일링 & Flexbox/Grid</li>
+                        <li>JavaScript ES6+ 기본 문법</li>
+                        <li>DOM 조작 & 이벤트 처리</li>
+                        <li>비동기 프로그래밍 (Promise, async/await)</li>
+                    </ul>
+                </div>
+                <div class="connections">
+                    <strong>연결 분야:</strong>
+                    <span class="connection-tag">프론트엔드</span>
+                    <span class="connection-tag">사용자 인터페이스</span>
+                    <span class="connection-tag">웹 표준</span>
+                </div>
+            </div>
+
+            <div class="knowledge-node beginner" onclick="toggleDetails(this)">
+                <div class="node-header">
+                    <div class="node-icon">🤖</div>
+                    <h3 class="node-title">AI 도구 활용</h3>
+                    <span class="node-level">초급</span>
+                </div>
+                <div class="node-content">
+                    <ul class="skills-list">
+                        <li>ChatGPT/Claude 프롬프트 엔지니어링</li>
+                        <li>GitHub Copilot 코드 생성</li>
+                        <li>Cursor AI IDE 사용법</li>
+                        <li>AI 기반 디버깅 도구</li>
+                        <li>코드 리뷰 자동화</li>
+                    </ul>
+                </div>
+                <div class="connections">
+                    <strong>연결 분야:</strong>
+                    <span class="connection-tag">생산성 향상</span>
+                    <span class="connection-tag">코드 품질</span>
+                    <span class="connection-tag">협업</span>
+                </div>
+            </div>
+
+            <div class="knowledge-node intermediate" onclick="toggleDetails(this)">
+                <div class="node-header">
+                    <div class="node-icon">⚛️</div>
+                    <h3 class="node-title">React 프론트엔드</h3>
+                    <span class="node-level">중급</span>
+                </div>
+                <div class="node-content">
+                    <ul class="skills-list">
+                        <li>React 컴포넌트 & Hooks</li>
+                        <li>상태 관리 (Redux, Zustand)</li>
+                        <li>Next.js 풀스택 프레임워크</li>
+                        <li>AI 채팅 인터페이스 구현</li>
+                        <li>실시간 데이터 시각화</li>
+                    </ul>
+                </div>
+                <div class="connections">
+                    <strong>연결 분야:</strong>
+                    <span class="connection-tag">사용자 경험</span>
+                    <span class="connection-tag">대화형 AI</span>
+                    <span class="connection-tag">데이터 시각화</span>
+                </div>
+            </div>
+
+            <div class="knowledge-node intermediate" onclick="toggleDetails(this)">
+                <div class="node-header">
+                    <div class="node-icon">🟢</div>
+                    <h3 class="node-title">Node.js 백엔드</h3>
+                    <span class="node-level">중급</span>
+                </div>
+                <div class="node-content">
+                    <ul class="skills-list">
+                        <li>Express.js 서버 개발</li>
+                        <li>RESTful API & GraphQL</li>
+                        <li>데이터베이스 연동 (MongoDB, PostgreSQL)</li>
+                        <li>JWT 인증 & 보안</li>
+                        <li>AI 모델 API 통합</li>
+                    </ul>
+                </div>
+                <div class="connections">
+                    <strong>연결 분야:</strong>
+                    <span class="connection-tag">API 개발</span>
+                    <span class="connection-tag">서버 관리</span>
+                    <span class="connection-tag">데이터 처리</span>
+                </div>
+            </div>
+
+            <div class="knowledge-node intermediate" onclick="toggleDetails(this)">
+                <div class="node-header">
+                    <div class="node-icon">🧠</div>
+                    <h3 class="node-title">머신러닝 기초</h3>
+                    <span class="node-level">중급</span>
+                </div>
+                <div class="node-content">
+                    <ul class="skills-list">
+                        <li>Scikit-learn 라이브러리</li>
+                        <li>데이터 전처리 & 특성 공학</li>
+                        <li>모델 선택 & 평가</li>
+                        <li>교차 검증 & 하이퍼파라미터 튜닝</li>
+                        <li>시각화 (Matplotlib, Seaborn)</li>
+                    </ul>
+                </div>
+                <div class="connections">
+                    <strong>연결 분야:</strong>
+                    <span class="connection-tag">예측 모델링</span>
+                    <span class="connection-tag">비즈니스 인사이트</span>
+                    <span class="connection-tag">자동화 시스템</span>
+                </div>
+            </div>
+
+            <div class="knowledge-node intermediate" onclick="toggleDetails(this)">
+                <div class="node-header">
+                    <div class="node-icon">🏗️</div>
+                    <h3 class="node-title">풀스택 AI 개발</h3>
+                    <span class="node-level">중급</span>
+                </div>
+                <div class="node-content">
+                    <ul class="skills-list">
+                        <li>FastAPI/Express.js AI API 개발</li>
+                        <li>React/Next.js AI 인터페이스</li>
+                        <li>실시간 웹소켓 통신</li>
+                        <li>AI 모델 서빙 & 최적화</li>
+                        <li>클라우드 배포 (Vercel, Netlify)</li>
+                    </ul>
+                </div>
+                <div class="connections">
+                    <strong>연결 분야:</strong>
+                    <span class="connection-tag">풀스택 개발</span>
+                    <span class="connection-tag">실시간 AI</span>
+                    <span class="connection-tag">사용자 경험</span>
+                </div>
+            </div>
+
+            <div class="knowledge-node advanced" onclick="toggleDetails(this)">
+                <div class="node-header">
+                    <div class="node-icon">🔥</div>
+                    <h3 class="node-title">딥러닝 & NLP</h3>
+                    <span class="node-level">고급</span>
+                </div>
+                <div class="node-content">
+                    <ul class="skills-list">
+                        <li>TensorFlow/PyTorch 프레임워크</li>
+                        <li>신경망 아키텍처 설계</li>
+                        <li>Transformer 모델 이해</li>
+                        <li>LLM 파인튜닝 (LoRA, QLoRA)</li>
+                        <li>RAG 시스템 구축</li>
+                    </ul>
+                </div>
+                <div class="connections">
+                    <strong>연결 분야:</strong>
+                    <span class="connection-tag">자연어 처리</span>
+                    <span class="connection-tag">챗봇 개발</span>
+                    <span class="connection-tag">검색 시스템</span>
+                </div>
+            </div>
+
+            <div class="knowledge-node advanced" onclick="toggleDetails(this)">
+                <div class="node-header">
+                    <div class="node-icon">⚡</div>
+                    <h3 class="node-title">MLOps & 자동화</h3>
+                    <span class="node-level">고급</span>
+                </div>
+                <div class="node-content">
+                    <ul class="skills-list">
+                        <li>MLflow 모델 관리</li>
+                        <li>Kubernetes 모델 배포</li>
+                        <li>CI/CD 파이프라인 구축</li>
+                        <li>모델 모니터링 & A/B 테스트</li>
+                        <li>데이터 드리프트 감지</li>
+                    </ul>
+                </div>
+                <div class="connections">
+                    <strong>연결 분야:</strong>
+                    <span class="connection-tag">운영 효율성</span>
+                    <span class="connection-tag">스케일링</span>
+                    <span class="connection-tag">안정성</span>
+                </div>
+            </div>
+
+            <div class="knowledge-node expert" onclick="toggleDetails(this)">
+                <div class="node-header">
+                    <div class="node-icon">🎨</div>
+                    <h3 class="node-title">멀티모달 AI</h3>
+                    <span class="node-level">전문가</span>
+                </div>
+                <div class="node-content">
+                    <ul class="skills-list">
+                        <li>컴퓨터 비전 (OpenCV, YOLO)</li>
+                        <li>음성 처리 (Whisper, TTS)</li>
+                        <li>이미지 생성 (Stable Diffusion)</li>
+                        <li>멀티모달 모델 통합</li>
+                        <li>실시간 AI 애플리케이션</li>
+                    </ul>
+                </div>
+                <div class="connections">
+                    <strong>연결 분야:</strong>
+                    <span class="connection-tag">창작 도구</span>
+                    <span class="connection-tag">미디어 처리</span>
+                    <span class="connection-tag">AR/VR</span>
+                </div>
+            </div>
+
+            <div class="knowledge-node expert" onclick="toggleDetails(this)">
+                <div class="node-header">
+                    <div class="node-icon">🚀</div>
+                    <h3 class="node-title">AI 제품 개발</h3>
+                    <span class="node-level">전문가</span>
+                </div>
+                <div class="node-content">
+                    <ul class="skills-list">
+                        <li>프로덕트 매니지먼트</li>
+                        <li>사용자 연구 & UX 디자인</li>
+                        <li>비즈니스 모델 설계</li>
+                        <li>팀 빌딩 & 리더십</li>
+                        <li>투자 유치 & 스케일링</li>
+                    </ul>
+                </div>
+                <div class="connections">
+                    <strong>연결 분야:</strong>
+                    <span class="connection-tag">창업</span>
+                    <span class="connection-tag">혁신</span>
+                    <span class="connection-tag">시장 개척</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="progress-section">
+            <h2 class="progress-title">🎯 마스터 학습 로드맵</h2>
+            <div class="learning-path">
+                <div class="path-step">
+                    <div class="step-number">1</div>
+                    <h4>기초 다지기</h4>
+                    <p>프로그래밍 기초 + AI 도구 활용</p>
+                </div>
+                <div class="path-step">
+                    <div class="step-number">2</div>
+                    <h4>실무 적용</h4>
+                    <p>머신러닝 + 웹 개발 융합</p>
+                </div>
+                <div class="path-step">
+                    <div class="step-number">3</div>
+                    <h4>전문성 강화</h4>
+                    <p>딥러닝 + MLOps 마스터</p>
+                </div>
+                <div class="path-step">
+                    <div class="step-number">4</div>
+                    <h4>혁신 창조</h4>
+                    <p>멀티모달 AI + 제품 개발</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
